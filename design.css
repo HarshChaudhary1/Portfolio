@@ -1,0 +1,855 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-color: #f8ffff;
+}
+
+header{
+position: relative;
+}
+
+.navbar{
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index:3;
+}
+
+#logo{
+    font-weight: bold;
+    font-size: 1.4rem;
+    
+}
+
+header{
+    position: fixed;
+    z-index: 3;
+}
+
+#About-1{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    justify-content: space-evenly;
+}
+
+#About-1 .telling{
+    font-size: 1rem;
+    color: #98c4e6;
+}
+
+#About-1 .name{
+    font-size: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: -45px;
+    margin-bottom: -20px;
+}
+
+.hire-me{
+    padding: 5px 25px;
+    border-radius: 2px;
+    border: transparent;
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+    color: whitesmoke;
+}
+
+.hire-me:hover{
+    color: black;
+}
+
+.short_info{
+    color: rgb(168, 168, 168);
+}
+
+#bio-data-1{
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+#image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+}
+#image-2{
+    box-shadow: -1rem -1rem 0rem #39595991;
+}
+
+.download{
+    margin-top: 5rem;
+}
+.my-bio-data{
+    font-weight: 600;
+    font-size: 2.2rem;
+    position: relative;
+    margin-bottom: 3rem;
+    margin-top: -3rem;
+}
+
+.my-bio-data::before{
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    left: 0%;
+    width: 2%;
+    height: 22%;
+    border-radius: 3rem;
+    background-image: linear-gradient(to right, #00b4db, #0083b0);
+}
+
+.my-bio-data::after{
+    content: "";
+    position: absolute;
+    bottom: -22%;
+    left: 2%;
+    width: 25%;
+    height: 3%;
+    background-image: linear-gradient(to right, #00b4db, #0083b0);
+}
+
+.detail-data{
+    margin-bottom: 1rem;
+    color:#8d8e8d;
+}
+
+.learned-languages{
+    margin-bottom: .7rem;
+    font-size: 2.2rem;
+}
+
+.frontend{
+    font-size: 1.3rem;
+}
+
+.learned{
+    font-size: 0.9rem;
+    margin-top: 25px;
+    position: relative;
+}
+
+.learned::before{
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    width: 100%;
+    left: 0%;
+    height: 25%;
+    border-radius: 3rem;
+    background-color:rgb(208, 211, 211) ;
+}
+
+.learned::after{
+    content: "";
+    position: absolute;
+    bottom: -50%;
+    left: 0%;
+    height: 25%;
+    border-radius: 3rem;
+    background-image: linear-gradient(to right, #00b4db, #0083b0);
+}
+
+.html::after{
+width: 90%;
+}
+
+.css::after{
+    width: 80%;
+}
+
+.javascript::after{
+    width: 80%;
+}
+
+.jquery::after{
+    width: 60%;
+}
+
+.bootstrap::after{
+    width: 90%;
+}
+
+.nodejs::after{
+    width: 70%;
+}
+
+.express::after{
+    width: 60%;
+}
+
+.mongodb::after{
+    width: 60%;
+}
+
+.locate{
+    position: relative;
+}
+
+
+.locate::after{
+    content: "";
+    width: 0%;
+    height: 0%;
+    top:107%;
+    border:0.6rem solid transparent;
+    left: 0%;
+    position: absolute;
+    border-bottom: 8px solid #82b7fc;
+    outline: none;
+}
+
+.locate::before{
+    content: "";
+    width: 5%;
+    height: 78%;
+    top:186%;
+    left: 0%;
+    font-size: 0.7rem;
+    position: absolute;
+    background-color: #82b7fc;
+    border: none;
+    color: #f8ffff;
+}
+
+.html-1::before{
+    content: "90%";
+left: 87%;
+}
+
+.css-1::before{
+    content: "80%";
+    left: 77%;
+}
+
+.javascript-1::before{
+    content: "80%";
+    left: 77%;
+}
+
+.jquery-1::before{
+    content: "60%";
+    left: 57%;
+}
+
+.bootstrap-1::before{
+    content: "90%";
+    left: 87%;
+}
+
+.nodejs-1::before{
+    content: "70%";
+    left: 67%;
+}
+
+.mongodb-1::before{
+    content: "60%";
+    left: 57%;
+}
+
+.express-1::before{
+    content: "60%";
+    left: 57%;
+}
+
+.html-1::after{
+    left: 87.6%;
+    }
+    
+    .css-1::after{
+        left: 77.6%;
+    }
+    
+    .javascript-1::after{
+        left: 77.6%;
+    }
+    
+    .jquery-1::after{
+        left: 57.6%;
+    }
+    
+    .bootstrap-1::after{
+        left: 87.6%;
+    }
+    
+    .nodejs-1::after{
+        left: 67.6%;
+    }
+    
+    .mongodb-1::after{
+        left: 57.6%;
+    }
+
+    .express-1::after{
+        left: 57.6%;
+    }
+
+    #Work{
+        overflow: hidden;
+    }
+
+    .work{
+        font-size: 2rem;
+        font-weight: bold;
+        position: relative;
+     }
+    .work::before{
+        content:"";
+        position: absolute;
+        top: 100%;
+        left: 1%;
+        width: 0.8%;
+        height: 20%;
+        z-index: 2;
+        background-image: linear-gradient(to right, #00b4db, #0083b0);
+    }
+    .work::after{
+        content: "";
+        position: absolute;
+        top: 107%;
+        left: 1.5%;
+        width: 10%;
+        height: 5%;
+        background-image: linear-gradient(to right, #00b4db, #0083b0);
+    }
+
+    .small-details{
+        margin-top: 2rem;
+        color:rgb(168, 168, 168);
+    }
+
+    .website-title{
+        font-weight: bold;
+        background-image:linear-gradient(to right, #00b4db, #12c3ff);
+        border: none;
+        color: #f8ffff;
+        padding: 0.7rem;
+    }
+    .website-title:hover{
+        color: black;
+    }
+    .image-3{
+        width: 20rem;
+    }
+    .image-base{
+        position: relative;
+        width: 20rem;
+        cursor: pointer;
+    }
+    .image-base::before{
+        content: "";
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        position:absolute;
+        bottom: 0%;
+        width: 100%;
+        height: 0%;
+        background-color: red;
+        opacity: 0.2;
+        transition: height 0.5s linear 0s;
+    }
+
+    .image-base:hover::before{
+        height:100%;
+        transition: height 0.7s linear 0s;
+    }
+    
+    .image-base::after{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        position:absolute;
+        bottom: 0%;
+        width: 100%;
+        color: #f8ffff;
+        height: 0%;
+        content: "";
+        transition: height 0.5s linear 0s;
+        
+    }
+    
+    .image-base:hover::after{
+        content: "PROJECT 1";
+        height: 100%;
+        transition: height 0.7s linear 0s;
+    }
+    
+    .image-content-1:hover::after{
+        content: "PROJECT 2";
+    }
+
+    .image-content-2:hover::after{
+        content: "PROJECT 3";
+    }
+
+    .image-content-3:hover::after{
+        content: "PROJECT 4";
+    }
+
+    .image-content-4:hover::after{
+        content: "PROJECT 5";
+    }
+
+    .image-content-5:hover::after{
+        content: "PROJECT 6";
+    }
+
+    #image-4{
+        width: 35rem;
+    }
+
+    .image-resume{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #Resume{
+        overflow: hidden;
+    }
+
+    .resume-detail{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .resume-title {
+        font-size: 2.7rem;
+        font-weight: bold;
+        position: relative;
+        width: 13rem;
+    }
+
+    .resume-title::before{
+        content:"";
+        position: absolute;
+        top: 100%;
+        left: 5%;
+        width: 4%;
+        height: 20%;
+        z-index: 2;
+        background-image: linear-gradient(to right, #00b4db, #0083b0);
+    }
+
+    .resume-title::after{
+        content: "";
+        position: absolute;
+        top: 107%;
+        left: 6%;
+        width: 50%;
+        height: 5%;
+        background-image: linear-gradient(to right, #00b4db, #0083b0);   
+    }
+
+    .experience-title,.education-title{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .experience-detail,.education-detail{
+        font-size: 1.1rem;
+        color: #8d8e8d;
+        margin-top: 1rem;
+    }
+
+    .education-detail{
+    font-size: 0.9rem !important;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    #Skill{
+        margin-top: 2rem;
+    }
+     .class-1 .destination{
+        margin-top: 1rem;
+    }
+
+    .parallox{
+        
+        background-size: cover;
+        background-image: url("https://images.shiksha.com/mediadata/images/articles/1668669916phpEuNupJ.jpeg");
+        background-attachment: fixed;
+        color: #f8ffff;
+        position: relative;
+        height: 50vh;
+    }
+    
+    .parallox::after{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0.5;
+        left: 0%;
+        content: "";
+        background-color: #12c3ff;
+    }
+    .parallox::before{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        content: "I WANT TO BE A FULL STACK WEB DEVELOPER";
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        opacity: 1;
+        font-size: 3rem;
+    }
+
+    .fa-location-dot{
+        margin-left: 1rem;
+    }
+
+    footer{
+        background-color:#397184;
+        border: none;
+        outline: none;
+        color:whitesmoke;
+        margin-top: 2rem;
+        padding: 2rem;
+        padding-top: 3rem;
+        font-size: 1.2rem;
+    }
+    
+    .personal-detail {
+        margin-top: 1rem;
+    }
+
+    .fa-brands{
+        margin-left: 1rem;
+        margin-top: 2rem;
+        font-size: 2rem;
+    }
+
+    .icon-arrow{
+        position: absolute;
+        bottom: 5%;
+        right: 5%;
+        position: fixed;
+        color:#0087b0;
+        font-size: 2.5rem;
+        visibility: hidden;
+        animation: up-down 1s infinite;
+    }
+    @keyframes up-down {
+        0%{
+            transform:translateY(0px);
+        }
+        50%{
+            transform: translateY(10px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+
+    @media only screen and (max-width:991px) {
+        .navbar-collapse{
+            background-color: #00b4db;
+            border: none;
+            padding: 0px 0px 0px 15px;
+        }
+        .navbar-collapse a{
+            color: whitesmoke;
+        }   
+
+        .image-base{
+            margin-top: 1rem;
+            margin-left: 1rem;
+        }
+    }
+
+    @media only screen and (max-width:1405px){
+        #About-1 .telling{
+            margin-bottom: 2rem ;
+        }
+    }
+
+    @media only screen and (max-width:1240px){
+        #About-1 .short_info{
+            margin-top: 2rem;
+        }
+        #About-1 .hire-me{
+            margin-top: 1rem;
+        }
+        .image-center{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .my-bio-data{
+            margin-top: 1rem;
+        }
+
+        .locate::before{
+            content: "";
+            width: 7%;
+            height: 78%;
+            top:186%;
+            left: 0%;
+            font-size: 0.7rem;
+            position: absolute;
+            background-color: #82b7fc;
+            border: none;
+            color: #f8ffff;
+        }
+        
+        .html-1::before{
+            content: "100%";
+        left: 97%;
+        }
+        
+        .css-1::before{
+            content: "90%";
+            left: 87%;
+        }
+        
+        .javascript-1::before{
+            content: "80%";
+            left: 77%;
+        }
+        
+        .jquery-1::before{
+            content: "60%";
+            left: 57%;
+        }
+        
+        .bootstrap-1::before{
+            content: "90%";
+            left: 87%;
+        }
+        
+        .nodejs-1::before{
+            content: "70%";
+            left: 67%;
+        }
+        
+        .express-1::before{
+            content: "80%";
+            left: 77%;
+        }
+
+    }
+
+   
+    @media only screen and (max-width:1100px){
+        .locate::before{
+            content: "";
+            width: 9% !important;
+            height: 78%;
+            top:186%;
+            left: 0%;
+            font-size: 0.7rem;
+            position: absolute;
+            background-color: #82b7fc;
+            border: none;
+            color: #f8ffff;
+        }
+        
+        .website-title{
+            font-weight: bold;
+            background-image:linear-gradient(to right, #00b4db, #12c3ff);
+            border: none;
+            color: #f8ffff;
+            padding: 0.7rem;
+            width: 7rem;
+        }
+
+        .html-1::before{
+            content: "100%";
+        left: 97%;
+        }
+        
+        .css-1::before{
+            content: "90%";
+            left: 87%;
+        }
+        
+        .javascript-1::before{
+            content: "80%";
+            left: 77%;
+        }
+        
+        .jquery-1::before{
+            content: "60%";
+            left: 57%;
+        }
+        
+        .bootstrap-1::before{
+            content: "90%";
+            left: 87%;
+        }
+        
+        .nodejs-1::before{
+            content: "70%";
+            left: 67%;
+        }
+        
+        .express-1::before{
+            content: "80%";
+            left: 77%;
+        }
+    }
+
+    @media only screen and (max-width:767px){
+        .image-center{
+            margin-top: 1rem;
+        }
+        #About-1 .telling{
+            margin-bottom: 3rem ;
+        }
+        #About-1{
+            text-align: center;
+        }
+        .my-bio-data{
+            margin-top: 2rem;
+        }
+
+        .resume-title{
+            text-align: center;
+        }
+
+        .resume-title::before{
+            content:"";
+            position: absolute;
+            top: 100%;
+            left: 0%;
+            width: 1%;
+            height: 20%;
+            z-index: 2;
+            background-image: linear-gradient(to right, #00b4db, #0083b0);
+        }
+
+        .resume-title::after{
+            content: "";
+            position: absolute;
+            top: 107%;
+            left:0%;
+            width: 100%;
+            height: 5%;
+            background-image: linear-gradient(to right, #00b4db, #0083b0);   
+        }
+
+        .work::after{
+            content: "";
+            position: absolute;
+            top: 107%;
+            left: 1.5%;
+            width: 15%;
+            height: 5%;
+            background-image: linear-gradient(to right, #00b4db, #0083b0);
+        }
+
+        .locate::before{
+            content: "";
+            width: 4% !important;
+            height: 78%;
+            top:186%;
+            left: 0%;
+            font-size: 0.7rem;
+            position: absolute;
+            background-color: #82b7fc;
+            border: none;
+            color: #f8ffff;
+        }
+        
+        .html-1::before{
+            content: "100%";
+        left: 97%;
+        }
+        
+        .css-1::before{
+            content: "90%";
+            left: 87%;
+        }
+        
+        .javascript-1::before{
+            content: "80%";
+            left: 77%;
+        }
+        
+        .jquery-1::before{
+            content: "60%";
+            left: 57%;
+        }
+        
+        .bootstrap-1::before{
+            content: "90%";
+            left: 87%;
+        }
+        
+        .nodejs-1::before{
+            content: "70%";
+            left: 67%;
+        }
+        
+        .express-1::before{
+            content: "80%";
+            left: 77%;
+        }
+    }
+
+    @media only screen and (max-width:600px){
+        .locate::before{
+            content: "";
+            width: 6% !important;
+            height: 78%;
+            top:186%;
+            left: 0%;
+            font-size: 0.7rem;
+            position: absolute;
+            background-color: #82b7fc;
+            border: none;
+            color: #f8ffff;
+        }
+        .html-1::before{
+            content: "100%";
+        left: 97%;
+        }
+        
+        .css-1::before{
+            content: "90%";
+            left: 87%;
+        }
+        
+        .javascript-1::before{
+            content: "80%";
+            left: 77%;
+        }
+        
+        .jquery-1::before{
+            content: "60%";
+            left: 57%;
+        }
+        
+        .bootstrap-1::before{
+            content: "90%";
+            left: 87%;
+        }
+        
+        .nodejs-1::before{
+            content: "70%";
+            left: 67%;
+        }
+        
+        .express-1::before{
+            content: "80%";
+            left: 77%;
+        }
+    }
